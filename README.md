@@ -1,10 +1,12 @@
 # DCT_TEST
- 1. Código 1: JSON Cleaning
+1. Código 1: JSON Cleaning
 • Este código realiza una limpieza de un objeto JSON.
 • Utiliza una función llamada obtenerData que recorre el objeto JSON y elimina las propiedades que tienen valores "N/A", "", o "-".
 • La función también maneja casos de propiedades que son arreglos o subobjetos, realizando una limpieza recursiva en ellos.
 • El código hace una solicitud HTTPS a una API para obtener un objeto JSON, y luego aplica la función obtenerData al objeto y muestra el resultado limpio en la consola.
+
 2. Código 2: Longest Word
+   
 • Este código encuentra la palabra más larga en una cadena de texto.
 • Utiliza la función LongestWord que recibe la cadena de texto como argumento.
 • La cadena se divide en palabras utilizando el espacio como delimitador.
@@ -12,7 +14,8 @@
 • Se itera sobre todas las palabras y se compara la longitud de cada palabra con la longitud de la siguiente palabra.
 • La palabra más larga se asigna a la variable longst.
 • Al final, se devuelve la palabra más larga.
-3.Código 3: Min Window Substring
+
+3. Código 3: Min Window Substring
 • Este código encuentra la subcadena de ventana mínima que contiene todos los caracteres de una cadena objetivo en una cadena de entrada.
 • El algoritmo se implementa en la función MinWindowSubstring.
 • Se utilizan bucles anidados para iterar sobre todas las posibles subcadenas de la cadena de entrada.
